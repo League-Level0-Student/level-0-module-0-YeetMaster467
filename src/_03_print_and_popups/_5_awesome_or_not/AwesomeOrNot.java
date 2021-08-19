@@ -2,6 +2,8 @@ package _03_print_and_popups._5_awesome_or_not;
 
 import java.util.Random;
 
+import javax.swing.JOptionPane;
+
 public class AwesomeOrNot {
 
 	// 1. Make a main method that includes everything below
@@ -18,15 +20,23 @@ public static void main(String[] args) {
 		// 3. Print your variable to the console
 	
 		// 4. Get the user to enter something that they think is awesome
-	
+	JOptionPane.showInputDialog("What do you think is awesome?");
 		// 5. If your variable is  0
-	
+	if(number==0) {
+		JOptionPane.showMessageDialog(null, "THAT IS TRULY AWESOME!");
+	}
 			// -- tell the user whatever they entered is awesome!
-	
+	if(number==1) {
+		JOptionPane.showMessageDialog(null, "That's ok.");
+	}
 		// 6. If your variable is  1
-	
+	if(number==2) {
+		JOptionPane.showMessageDialog(null, "That is just flat out BORING.");
+	}
 			// -- tell the user whatever they entered is ok.
-	
+	if(number==3) {
+		JOptionPane.showMessageDialog(null, "Ummm... I don't have words for that.");
+	}
 		// 7. If your variable is  2
 	
 			// -- tell the user whatever they entered is boring.
