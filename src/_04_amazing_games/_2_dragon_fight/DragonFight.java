@@ -77,7 +77,7 @@ public class DragonFight {
 			
 			// (Bonus: Also display the amount of health that was lost by each in this
 			// round)
-			
+			// extra comment
 
 		} // this is the end of the while loop
 
