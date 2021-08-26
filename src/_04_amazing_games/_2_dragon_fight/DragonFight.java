@@ -38,7 +38,7 @@ public class DragonFight {
 		String yellOrKick = JOptionPane.showInputDialog("Do you want to attack with a punch or a kick?");
 				// 4. If they typed in "yell":
 		if(yellOrKick.equalsIgnoreCase("punch")) {
-			playerAttack=ran.nextInt(10);
+			playerAttack=ran.nextInt(10);	
 		}
 					  // -- Find a random number between 0 and 10 and store it in playerAttack. Use
 					  // ran.nextInt(10)
